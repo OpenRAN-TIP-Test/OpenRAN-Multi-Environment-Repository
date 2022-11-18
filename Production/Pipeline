@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('CNF Instantiation') {
+            steps {
+                echo 'Deploying..'
+            }
+        }
+        stage('CNF Configuration') {
+            steps {
+                echo 'Deploying..'
+            }
+        }
+        stage('Trigger Infrastructure Testing') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+		stage('Trigger Open RAN CNFs Testing') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+		stage('Application Validation') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+		stage('Deployment in Production Environment') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }		
+}
